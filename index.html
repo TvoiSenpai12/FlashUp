@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <title>Энергетический напиток Flash Up Energy</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/vidbg.css">
+  <link rel="shortcut icon" href="assets/img/icon.jpg" type="image/x-icon">
+</head>
+
+<body class="h-100">
+  <div class="d-flex h-100 text-center text-white bg-dark wallpaper">
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="mb-auto">
+      <div>
+        <a href="index.html" class="float-md-start mb-0"><img src="assets/img/brand.png" alt=""></a>
+        <nav class="nav nav-masthead justify-content-center float-md-end my-5">
+          <p class="btn text-white btn-outline-success" onclick="openForm()">Консультация</p>
+        </nav>
+      </div>
+    </header>
+
+    <div class="px-3">
+      <h1>FLASH UP</h1>
+      <p class="lead">#ЗАРЯЖЕН НА НОВЫЙ УРОВЕНЬ</p>
+      <p class="lead">
+        <button class="btn btn-lg fw-bold text-white btn-outline-success" onclick="scrollView()">Нужен заряд</button>
+      </p>
+    </div>
+    <div class="mt-auto text-white-50"></div>
+  </div>
+
+<div class="modal-content rounded-5 shadow text-muted order">
+    <div class="modal-header p-5 pb-4 border-bottom-0">
+      <h2 class="fw-bold mb-0"><ya-tr-span data-index="14-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Оставьте ваши данные и мы свяжемся с вами" data-translation="Оставьте ваши данные и мы свяжемся с вами" data-type="trSpan" data-selected="false">Оставьте ваши данные и мы свяжемся с вами</ya-tr-span></h2>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть" onclick="closeForm()"></button>
+    </div>
+    <div class="modal-body p-5 pt-0">
+      <form class="">
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control rounded-4" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput"><ya-tr-span data-index="15-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Email address" data-translation="Эл. адрес" data-type="trSpan">Эл. адрес</ya-tr-span></label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control rounded-4" id="floatingPassword" placeholder="Пароль">
+          <label for="floatingPassword"><ya-tr-span data-index="16-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Password" data-translation="Ваше имя" data-type="trSpan">Ваше имя</ya-tr-span></label>
+        </div>
+        <button class="w-100 mb-2 btn btn-lg rounded-4 btn-primary bg-success text-white" type="submit"><ya-tr-span data-index="17-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Отправить" data-translation="Отправить" data-type="trSpan">Отправить</ya-tr-span></button>
+      </form>
+    </div>
+  </div>
+
+</div>
+<main>
+  <div class="container px-4 py-5" id="custom-cards">
+    <h2 class="pb-2 border-bottom" id="ozon"><ya-tr-span data-index="21-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Ассортимент" data-translation="Ассортимент" data-type="trSpan">Ассортимент</ya-tr-span></h2>
+
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-2">
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('assets/img/flash1.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 bg-secondary bg-opacity-50">
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><ya-tr-span data-index="22-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Short title, long jacket" data-translation="FLASH UP в бутылке" data-type="trSpan">FLASH UP в бутылке</ya-tr-span></h2>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                <small><ya-tr-span data-index="25-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Earth" data-translation="Земля" data-type="trSpan">Классика</ya-tr-span></small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                <small><ya-tr-span data-index="26-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="3d" data-translation="3D" data-type="trSpan">0,5Л</ya-tr-span></small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('assets/img/flash2.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 bg-secondary bg-opacity-50">
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><ya-tr-span data-index="23-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Much longer title that wraps to multiple lines" data-translation="FLASH UP в банке" data-type="trSpan">FLASH UP в банке классический</ya-tr-span></h2>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                <small><ya-tr-span data-index="27-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Pakistan" data-translation="Пакистан" data-type="trSpan">Классика</ya-tr-span></small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                <small><ya-tr-span data-index="28-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="4d" data-translation="4д" data-type="trSpan">0,45Л</ya-tr-span></small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('assets/img/flash3.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1 bg-secondary bg-opacity-50">
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><ya-tr-span data-index="24-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="FLASH UP в банке ягодный микс" data-translation="FLASH UP в банке ягодный микс" data-type="trSpan">FLASH UP в банке ягодный микс</ya-tr-span></h2>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                <small><ya-tr-span data-index="29-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="California" data-translation="Калифорния" data-type="trSpan">Ягодный микс</ya-tr-span></small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                <small><ya-tr-span data-index="30-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="5d" data-translation="5д" data-type="trSpan">0,45Л</ya-tr-span></small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="assets/img/shop.PNG" class="d-block mx-lg-auto img-fluid" alt="Темы Bootstrap" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3"><ya-tr-span data-index="7-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Responsive left-aligned hero with image" data-translation="Отзывчивый выровненный по левому краю герой с изображением" data-type="trSpan">Покупка нашего товара по оптовой цене у наших партнеров</ya-tr-span></h1>
+        <p class="lead"><ya-tr-span data-index="8-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins." data-translation="Быстро создавайте и настраивайте адаптивные мобильные сайты с помощью Bootstrap, самого популярного в мире инструментария с открытым исходным кодом, включающего переменные Sass и миксины, адаптивную сеточную систему, обширные готовые компоненты и мощные плагины JavaScript." data-type="trSpan" data-selected="false">Это напиток для активных современных людей, которые любят жизнь и не хотят терять ни минуты из-за усталости. Flash Up идеально подходит для того, чтобы взбодриться в течение напряженного дня и получить заряд энергии, необходимый как для работы, так и для развлечений. Приобрести его по выгодной цене можно на OZON!!!</ya-tr-span></p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <a href="https://www.ozon.ru/category/energeticheskie-napitki-9473/flash-up-energy-180887170/">
+            <button type="button" class="btn btn-lg px-4 me-md-2 border-none bg-success text-white"><ya-tr-span data-index="9-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Primary" data-translation="Основной" data-type="trSpan">Посмотреть</ya-tr-span></button>
+          </a>
+          </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+<footer class="bg-dark ">
+  <div class="container"">
+    <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <a href="index.html" class="float-md-start mb-0"><img src="assets/img/brand.png" alt=""></a>
+        </a>
+        <span class="text-muted"><ya-tr-span data-index="6-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="© 2022 ООО Балтика, Inc" data-translation="© 2022 ООО Балтика, Inc" data-type="trSpan">© 2022 Балтика, Inc</ya-tr-span></span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="https://vk.com/flashupofficial"><img src="./assets/img/vk-icon.svg" alt="" srcset=""></a></li>
+        <li class="ms-3"><a class="text-muted" href="https://www.youtube.com/channel/UCKp-vbdqTgNQ3ndw6XuDXgA/featured"><img src="./assets/img/yt-icon.svg" alt="" srcset=""></a></li>
+        <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/flashup.kz"><img src="./assets/img/inst-icon.svg" alt="" srcset=""></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="assets/script/vidbg.js"></script>
+
+  <script src="./assets/script/vidbg_settings.js"></script>
+  <script src="./assets/script/app.js"></script>
+</body>
+
+</html>
